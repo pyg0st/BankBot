@@ -17,7 +17,7 @@ All the commands start with a "$", this is the list of the implemented commands:
 **$add_credits username !credits**: Add the amount of credits to the user (work only for people who have administrator rights)
 
 ## How it works ?
-The python script can only be runned with Python3.5+, he used *asyncio*, *discord* and *sqlite*.
+The python script can only be runned with Python3.5+, he use *asyncio*, *discord* and *sqlite*.
 All the data are writed to a file named **bank.db**, this file is a **sqlite** file. You need SQLite browser to edit it.
 
 ## Please report me any weaks or bug.
