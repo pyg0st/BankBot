@@ -131,7 +131,7 @@ class BankBot(discord.Client):
 						if self.bank.add_credits(user_id_2, int(credits)) != -1: await self.send_message(message.channel, '<@{0}> you successfully transfered credits to <@{1}>'.format(user_id, user_id_2))
 
 		if message.content.startswith('$help'):
-			await self.send_message(message.channel, "BankBot created by Bled Nolan (2017 license GNU/GPL3.0")
+			await self.send_message(message.channel, "BankBot created by pygh0st (2017 license GNU/GPL3.0)")
 
 BOT_TOKEN = ''
 BANK_FILE = 'bank.db'
