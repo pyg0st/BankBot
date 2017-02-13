@@ -134,7 +134,7 @@ class BankBot(discord.Client):
 		if message.content.startswith('$help'):
 			await self.send_message(message.channel, "BankBot created by Bled Nolan (2017 license GNU/GPL3.0")
 
-BOT_TOKEN = 'MjgwMzkyOTk3MjY5NjY3ODQw.C4JBGw.gouZEweZzAv61R2JOgK3kHZUtzY'
+BOT_TOKEN = ''
 BANK_FILE = 'bank.db'
 
 client = BankBot(BANK_FILE)
