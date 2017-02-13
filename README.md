@@ -2,6 +2,13 @@
 A simple python discord bot using discordpy API (by Rapptz: https://github.com/Rapptz/discord.py). 
 
 This bot create add a credit system (money system).
+For make this bot works edit the line:
+
+**BOT_TOKEN = ''**
+
+to
+
+**BOT_TOKEN = 'your_token'**
 
 ## Commands
 All the commands start with a "$", this is the list of the implemented commands:
