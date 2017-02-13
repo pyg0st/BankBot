@@ -6,7 +6,6 @@ class Bank:
 
 	def __init__(self, dbname):
 		self.dbname = dbname
-
 		self.db = None
 		self.cursor = None
 
